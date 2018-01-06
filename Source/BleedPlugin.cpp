@@ -40,7 +40,7 @@ ASErr BleedPlugin::Message(char *caller, char *selector, void *message)
 	ASErr error = kNoErr;
 	if (strcmp(caller, kCallerAIScriptMessage ) == 0)
 	{
-        sAIUser->MessageAlert(ai::UnicodeString(caller));
+        //sAIUser->MessageAlert(ai::UnicodeString(caller));
 		error = kNoErr;
 		AIScriptMessage *msg = (AIScriptMessage*) message;
         if (ai::UnicodeString(selector) == ai::UnicodeString("Bleed"))
