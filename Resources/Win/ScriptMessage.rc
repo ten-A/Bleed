@@ -1,0 +1,105 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE 9, 2
+#pragma code_page(1252)
+
+#define kMySDKPluginName "ScriptMessage"
+#define PIPL_PLUGIN_NAME kMySDKPluginName
+#define kMySDKPluginNameLen 
+#define PLUGIN_NAME_LEN kMySDKPluginNameLen
+#define kMySDKPluginNamePadding ""
+#define PLUGIN_NAME_PADDING kMySDKPluginNamePadding
+
+/////////////////////////////////////////////////////////////////////////////
+// VersionInfo
+//
+
+#include "VersionInfo.rc"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PIPL
+//
+
+#define LC(a,b,c,d)		#d, #c, #b, #a
+
+16000  PiPL  DISCARDABLE
+BEGIN							
+	0x0001, 					/* Reserved (for Photoshop) */
+	0L, 						/* kCurrentPiPLVersion */
+	4L, 						/* Property Count */				
+	LC(A,D,B,E),				/* vendorID */
+	LC(k,i,n,d),				/* propertyKey = PIKindProperty */
+	0L,							/* propertyID */
+	4L,							/* propertyLength */
+	LC(S,P,E,A),				/* propertyData  */				
+	LC(A,D,B,E),				/* vendorID */
+	LC(i,v,r,s),				/* propertyKey = PISPVersionProperty */
+	0L,							/* propertyID */
+	4L,							/* propertyLength */
+	2L, 						/* propertyData */
+	LC(A,D,B,E),				/* vendorID */
+	LC(w,x,8,6),				/* propertyKey = PIWin32X86CodeProperty */
+	0L,							/* propertyID */
+	12L,						/* propertyLength */
+	"PluginMain\0\0",			/* propertyData = Entry Point  */
+								/* (Long Word padded C String) */
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(p,i,n,m),				/* propertyKey = PIPluginNameProperty  */
+	0L,							/* propertyID */
+	12L,						/* propertyLength */
+	PLUGIN_NAME_LEN,			/* propertyLength */
+	PIPL_PLUGIN_NAME PLUGIN_NAME_PADDING	/* propertyData = Plug-in name (padded to 4 bytes) */
+END
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+1 TEXTINCLUDE  
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE  
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE  
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
