@@ -17,5 +17,5 @@ ImportSuite gImportSuites[] =
 	kAIUnicodeStringSuite, kAIUnicodeStringVersion, &sAIUnicodeString,
 	kAIStringFormatUtilsSuite, kAIStringFormatUtilsSuiteVersion, &sAIStringFormatUtils,
 	kAIDocumentSuite, kAIDocumentSuiteVersion, &sAIDocument,
-    nil, 0, nil
+    nullptr, 0, nullptr
 };
