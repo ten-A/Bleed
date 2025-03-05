@@ -12,6 +12,6 @@ Ex:
 
 ## How to install compiled Plugin.
 
-1. Download archived plugin and decompress it.
+1. Download archived plugin(Bleed.aip.zip) and decompress it.
 2. Move it into "/Applications/Adobe Illustrator <20XX>/Plug-ins/"
 3. (Re)Start Illsutrator.
